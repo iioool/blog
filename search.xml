@@ -233,9 +233,10 @@
       </tags>
   </entry>
   <entry>
-    <title>20201113</title>
+    <title>Hexo 常用指令</title>
     <url>/blogn/2020/11/13/20201113/</url>
-    <content><![CDATA[<h5 id="常见命令："><a href="#常见命令：" class="headerlink" title="常见命令："></a>常见命令：</h5><h6 id="新建文章"><a href="#新建文章" class="headerlink" title="# 新建文章"></a># 新建文章</h6><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new &quot;postName&quot; </span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h2 id="Hexo-常用指令"><a href="#Hexo-常用指令" class="headerlink" title="Hexo 常用指令"></a>Hexo 常用指令</h2><hr>
+<h5 id="常见命令："><a href="#常见命令：" class="headerlink" title="常见命令："></a>常见命令：</h5><h6 id="新建文章"><a href="#新建文章" class="headerlink" title="# 新建文章"></a># 新建文章</h6><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new &quot;postName&quot; </span><br></pre></td></tr></table></figure>
 <h6 id="新建页面"><a href="#新建页面" class="headerlink" title="# 新建页面"></a># 新建页面</h6><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;pageName&quot;                     </span><br></pre></td></tr></table></figure>
 <h6 id="生成静态页面至public目录"><a href="#生成静态页面至public目录" class="headerlink" title="# 生成静态页面至public目录"></a># 生成静态页面至public目录</h6><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo generate          </span><br></pre></td></tr></table></figure>
 <h6 id="开启预览访问端口（默认端口4000，’ctrl-c’关闭server）"><a href="#开启预览访问端口（默认端口4000，’ctrl-c’关闭server）" class="headerlink" title="# 开启预览访问端口（默认端口4000，’ctrl + c’关闭server）"></a># 开启预览访问端口（默认端口4000，’ctrl + c’关闭server）</h6><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo server       </span><br></pre></td></tr></table></figure>
