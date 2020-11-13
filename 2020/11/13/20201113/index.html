@@ -24,21 +24,21 @@
     var CONFIG = {"hostname":"example.com","root":"/blogn/","scheme":"Muse","version":"8.0.2","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/blogn/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="常见命令：# 新建文章1hexo new &quot;postName&quot;  # 新建页面1hexo new page &quot;pageName&quot;                      # 生成静态页面至public目录1hexo generate           # 开启预览访问端口（默认端口4000，’ctrl + c’关闭server）1hexo server">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2020/11/13/hello-world/index.html">
+<meta property="og:title" content="20201113">
+<meta property="og:url" content="http://example.com/2020/11/13/20201113/index.html">
 <meta property="og:site_name" content="Diin">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="常见命令：# 新建文章1hexo new &quot;postName&quot;  # 新建页面1hexo new page &quot;pageName&quot;                      # 生成静态页面至public目录1hexo generate           # 开启预览访问端口（默认端口4000，’ctrl + c’关闭server）1hexo server">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-11-13T02:37:49.371Z">
-<meta property="article:modified_time" content="2020-11-13T02:43:31.452Z">
+<meta property="article:published_time" content="2020-11-13T03:19:00.000Z">
+<meta property="article:modified_time" content="2020-11-13T03:30:18.445Z">
 <meta property="article:author" content="Diin">
-<meta property="article:tag" content="hello">
+<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/2020/11/13/hello-world/">
+<link rel="canonical" href="http://example.com/2020/11/13/20201113/">
 
 
 <script class="page-configurations">
@@ -51,7 +51,7 @@
   };
 </script>
 
-  <title>Hello World | Diin</title>
+  <title>20201113 | Diin</title>
   
 
 
@@ -203,7 +203,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <section class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">常见命令：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E6%96%87%E7%AB%A0"><span class="nav-number">1.1.</span> <span class="nav-text"># 新建文章</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E9%A1%B5%E9%9D%A2"><span class="nav-number">1.2.</span> <span class="nav-text"># 新建页面</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2%E8%87%B3public%E7%9B%AE%E5%BD%95"><span class="nav-number">1.3.</span> <span class="nav-text"># 生成静态页面至public目录</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E5%BC%80%E5%90%AF%E9%A2%84%E8%A7%88%E8%AE%BF%E9%97%AE%E7%AB%AF%E5%8F%A3%EF%BC%88%E9%BB%98%E8%AE%A4%E7%AB%AF%E5%8F%A34000%EF%BC%8C%E2%80%99ctrl-c%E2%80%99%E5%85%B3%E9%97%ADserver%EF%BC%89"><span class="nav-number">1.4.</span> <span class="nav-text"># 开启预览访问端口（默认端口4000，’ctrl + c’关闭server）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E9%83%A8%E7%BD%B2%E5%88%B0GitHub"><span class="nav-number">1.5.</span> <span class="nav-text"># 部署到GitHub</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E5%B8%AE%E5%8A%A9"><span class="nav-number">1.6.</span> <span class="nav-text"># 查看帮助</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8BHexo%E7%9A%84%E7%89%88%E6%9C%AC"><span class="nav-number">1.7.</span> <span class="nav-text"># 查看Hexo的版本</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E5%8D%B8%E8%BD%BD%E4%B8%8A%E4%BC%A0%E6%8F%92%E4%BB%B6%EF%BC%88%E7%94%A8%E4%BA%8E%E6%B8%85%E9%99%A4%E7%BC%93%E5%AD%98%EF%BC%89"><span class="nav-number">1.8.</span> <span class="nav-text"># 卸载上传插件（用于清除缓存）</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E6%B8%85%E9%99%A4%E7%BC%93%E5%AD%98%E6%96%87%E4%BB%B6"><span class="nav-number">1.9.</span> <span class="nav-text"># 清除缓存文件</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%BC%A9%E5%86%99%E5%91%BD%E4%BB%A4%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">缩写命令：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%BB%84%E5%90%88%E5%91%BD%E4%BB%A4%EF%BC%9A"><span class="nav-number">3.</span> <span class="nav-text">组合命令：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E5%B9%B6%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88"><span class="nav-number">3.1.</span> <span class="nav-text"># 生成并本地预览</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E5%B9%B6%E4%B8%8A%E4%BC%A0"><span class="nav-number">3.2.</span> <span class="nav-text"># 生成并上传</span></a></li></ol></li></ol></div>
         </section>
         <!--/noindex-->
 
@@ -274,7 +274,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/13/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/13/20201113/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/blogn/uploads/dy.png">
@@ -287,7 +287,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World
+          20201113
         </h1>
 
         <div class="post-meta-container">
@@ -299,7 +299,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2020-11-13 10:37:49 / 修改时间：10:43:31" itemprop="dateCreated datePublished" datetime="2020-11-13T10:37:49+08:00">2020-11-13</time>
+      <time title="创建时间：2020-11-13 11:19:00 / 修改时间：11:30:18" itemprop="dateCreated datePublished" datetime="2020-11-13T11:19:00+08:00">2020-11-13</time>
     </span>
 
   
@@ -312,20 +312,22 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+        <h5 id="常见命令："><a href="#常见命令：" class="headerlink" title="常见命令："></a>常见命令：</h5><h6 id="新建文章"><a href="#新建文章" class="headerlink" title="# 新建文章"></a># 新建文章</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;postName&quot; </span><br></pre></td></tr></table></figure>
+<h6 id="新建页面"><a href="#新建页面" class="headerlink" title="# 新建页面"></a># 新建页面</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page &quot;pageName&quot;                     </span><br></pre></td></tr></table></figure>
+<h6 id="生成静态页面至public目录"><a href="#生成静态页面至public目录" class="headerlink" title="# 生成静态页面至public目录"></a># 生成静态页面至public目录</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate          </span><br></pre></td></tr></table></figure>
+<h6 id="开启预览访问端口（默认端口4000，’ctrl-c’关闭server）"><a href="#开启预览访问端口（默认端口4000，’ctrl-c’关闭server）" class="headerlink" title="# 开启预览访问端口（默认端口4000，’ctrl + c’关闭server）"></a># 开启预览访问端口（默认端口4000，’ctrl + c’关闭server）</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server       </span><br></pre></td></tr></table></figure>
+<h6 id="部署到GitHub"><a href="#部署到GitHub" class="headerlink" title="# 部署到GitHub"></a># 部署到GitHub</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy      </span><br></pre></td></tr></table></figure>
+<h6 id="查看帮助"><a href="#查看帮助" class="headerlink" title="# 查看帮助"></a># 查看帮助</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo help      </span><br></pre></td></tr></table></figure>
+<h6 id="查看Hexo的版本"><a href="#查看Hexo的版本" class="headerlink" title="# 查看Hexo的版本"></a># 查看Hexo的版本</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo version    </span><br></pre></td></tr></table></figure>
+<h6 id="卸载上传插件（用于清除缓存）"><a href="#卸载上传插件（用于清除缓存）" class="headerlink" title="# 卸载上传插件（用于清除缓存）"></a># 卸载上传插件（用于清除缓存）</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h6 id="清除缓存文件"><a href="#清除缓存文件" class="headerlink" title="# 清除缓存文件"></a># 清除缓存文件</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="缩写命令："><a href="#缩写命令：" class="headerlink" title="缩写命令："></a>缩写命令：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo n &#x3D;&#x3D; hexo new</span><br><span class="line">hexo g &#x3D;&#x3D; hexo generate</span><br><span class="line">hexo s &#x3D;&#x3D; hexo server</span><br><span class="line">hexo d &#x3D;&#x3D; hexo deploy</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+<hr>
+<h5 id="组合命令："><a href="#组合命令：" class="headerlink" title="组合命令："></a>组合命令：</h5><h6 id="生成并本地预览"><a href="#生成并本地预览" class="headerlink" title="# 生成并本地预览"></a># 生成并本地预览</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s -g</span><br></pre></td></tr></table></figure>
+<h6 id="生成并上传"><a href="#生成并上传" class="headerlink" title="# 生成并上传"></a># 生成并上传</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d -g</span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -334,7 +336,7 @@
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/blogn/tags/hello/" rel="tag"># hello</a>
+              <a href="/blogn/tags/hexo/" rel="tag"># hexo</a>
           </div>
 
         
